@@ -30,11 +30,11 @@ void LMS::addStudentToCourse(int student_id, int course_id) {
 
 void LMS::printDetails()  {
     cout<<"LMS Name: "<<name<<endl;
-    cout<<"Students: "<<endl;
+    cout<<"Students:"<<endl;
     for (int i = 0; i < students.size(); i++) {
         students[i].printDetails();
     }
-    cout<<"Courses: "<<endl;
+    cout<<"Courses:"<<endl;
     for (int i = 0; i < courses.size(); i++) {
         courses[i].printDetails();
     }
